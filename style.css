@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+}
+
+#conduce{
+        width: 100%;
+        padding: 0%;
+} 
+
+#clientebutton{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: white 1px solid;
+    border-radius: 1rem;
+    padding: 0.94000rem 1.850rem;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+#conductorbutton{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: white 1px solid;
+    border-radius: 1rem;
+    padding: 0.94000rem 1.850rem;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+
+header {
+    width: 100%;
+    background: whitesmoke; 
+}
+
+#botonMenu {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid  #fff;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.seccionGeneral{
+     height: auto;
+     background-color: #191C26;
+}
+
+@media (max-width:768px) {
+    header label {
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        background:  rgba(171, 173, 172, 0.667);
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.4s;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        border-top: 1px solid  #fff;
+    }
+
+    #botonMenu:checked ~ .menu {
+        margin: 0;
+    }
+
+    .menu li a {
+        color: #fff;
+    }
+}
+
+#taxi{
+    width: 100%;
+    padding: 0%;
+  }
+
+
+  .contenedor1 {
+    position: relative;
+    margin-top: 70px;
+    color: white;
+    text-align: left;
+    padding: 2rem;
+    background: rgb(238, 173, 7);
+    justify-content: flex-end;
+    height: auto;
+    width: 550px;
+    top: 40px;
+    left: 300px;
+}
+.disfruta {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.dueño {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+
+
+#map {
+    background-color: rgb(255, 196, 0)
+}
+
+#map {
+    width: 0;
+    height: 0;
+}
+
+
+.ocultar{
+    display:none;
+}
+
+.logo {
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:80px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding 0;
+}
+
+.container{
+    width:100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+#seccion2{
+    display: flex;
+    padding: 3rem 0;
+    width: 100vw;
+    background-color: #F7B617;
+}
+
+.row:before, .row:after{
+   content: "";
+   display: table;
+   clear: both;
+}
+
+[class*="col-"]{
+    float: left;
+    min-height: 7px;
+    /*gutters*/
+    padding: 12px;
+
+/* (100/12)* num-col */
+
+.col-1{width: 8.33333333%}
+.col-2{width: 16.666667%;}
+.col-3{width: 25%}
+.col-4{width: 33.333333%;}
+.col-5{width: 41.666667%;}
+.col-6{width: 50%;}
+.col-7{width: 58.3333333%;}
+.col-8{width: 66.6666666%;}
+.col-9{width: 75%;}
+.col-10{width: 83.333333%;}
+.col-11{width: 91.666666%;}
+.col-12{width: 100%;}
+
+
